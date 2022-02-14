@@ -1,4 +1,4 @@
-## Just short instruction
+## A little note
 - First of all we need to have a Midtrans account. Then we have to login to the dashboard.
 
 - After that we can open the access keys.
