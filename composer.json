@@ -1,0 +1,17 @@
+{
+    "name": "asus/test-midtrans",
+    "autoload": {
+        "psr-4": {
+            "Asus\\TestMidtrans\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yazky Maulana",
+            "email": "yazki.maulana@gmail.com"
+        }
+    ],
+    "require": {
+        "midtrans/midtrans-php": "^2.5"
+    }
+}
