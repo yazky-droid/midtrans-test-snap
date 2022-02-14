@@ -24,5 +24,10 @@ $params = array(
     ),
 );
  
-$snapToken = \Midtrans\Snap::getSnapToken($params);
-echo $snapToken;
+//Ini dapetin token dari midtrans
+// $snapToken = \Midtrans\Snap::getSnapToken($params);
+// echo $snapToken;
+
+// Ini redirect URL, jadi sudah dibuatkan front pagenya sama midtrans
+ $snapUrlRedirect = \Midtrans\Snap::createTransaction($params)->redirect_url;
+ echo $snapUrlRedirect;
